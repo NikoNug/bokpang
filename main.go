@@ -13,7 +13,7 @@ func main() {
 
 	app := fiber.New()
 
-	routes.TicketRoutes(app)
+	routes.RouteInit(app)
 
 	log.Fatal(app.Listen(":3000"))
 }
